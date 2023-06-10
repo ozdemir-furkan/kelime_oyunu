@@ -19,7 +19,13 @@
 * Sorulacak soru kalmadığında hata vermemesi için gerekli ayarlamaları yaptım.
 * Tıklanılır harflerin görünümünü ayarlamak için oluşturmuş olduğumuz **button** bloğuna classname atayıp App.css üzerinde gerekli ayarlamaları yapıp tuşlara basıldığında üste aktarılacak harflerin düzenlemesini yaptım.
 * Ardından soru başlığındaki yazı boyutunu ve kalınlık ayarlarını yaptım.
+<img src="photos/1.png" width="558" height="111">
 
+* Tıkladığımız harflerin soru altındaki görünümlerini üzerine gelip silmek istediğimizde kırmızıya dönecek şekilde ayarladım.
+<img src="photos/2.png" width="595" height="121">
+
+* Yukarıda belirtmiş olduğum yanlış cevap verilmesi anındaki bildiriyi düzenleyip verilen kullanıcının daha rahat anlayabilmesi için cevap eğer ki yanlış ise harf bloklarının altında kırmızı yanacak şekilde ayarladım.
+<img src="photos/3.png" width="625" height="134">
  
 
 
