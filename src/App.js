@@ -16,22 +16,26 @@ function App() {
     return array.sort(()=>Math.random()-0.5);
   }
 
-  const setKeyword=(keyword) => {
-    if(keywords.length<answer.length){
+  const setKeyword = (keyword) => {
     keywords.push(keyword);
-    setKeywords([... keywords]);
+    setKeywords([...keywords]);
+  
+    const updatedAnswerArray = [...answerArray];
+    const keywordIndex = updatedAnswerArray.indexOf(keyword);
+    if (keywordIndex !== -1) {
+      updatedAnswerArray.splice(keywordIndex, 1);
     }
-    if(keywords.length==answer.length){
-      if(answer==keywords.join("")){
-        setIndex(index+1);
+      setAnswerArray(updatedAnswerArray);
+    if (keywords.length === answer.length) {
+      if (answer === keywords.join("")) {
+        setIndex(index + 1);
         setKeywords([]);
         setResultQuestion(true);
-      }
-      else{
+      } else {
         setWrong(true);
       }
     }
-  }
+  }; 
 
 
   useEffect(()=>{
@@ -54,11 +58,13 @@ function App() {
     
   }, [resultQuestion]);
 
-    const removeKeyword=(index)=>{
-      keywords.splice(index,1);
-      console.log(keywords);
-      setKeywords([...keywords]);
-    }
+  const removeKeyword = (index) => {
+    const removedKeyword = keywords.splice(index, 1)[0];
+    setKeywords([...keywords]);
+
+    const updatedAnswerArray = [...answerArray, removedKeyword];
+    setAnswerArray(updatedAnswerArray.slice(0, answerArray.length + 1));
+  };
   return (
     <div className="App">
       {answer!=""&&
