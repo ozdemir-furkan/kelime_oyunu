@@ -22,7 +22,7 @@
 <img src="photos/1.png" width="558" height="111">
 
 * Tıkladığımız harflerin soru altındaki görünümlerini üzerine gelip silmek istediğimizde kırmızıya dönecek şekilde ayarladım.
-<img src="photos/2.png" width="558" height="111">
+<img src="photos/2.png" width="595" height="121">
  
 
 
