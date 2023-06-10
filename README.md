@@ -31,7 +31,7 @@
 * Son olarak gerekli css ve yazı stili ayarlamalarını yaptıktan sonra oyunumuzu hazır hale getirdim.
 
 ## Oynanış Videosu
-<img src="photos/4.gif" width="1000" height="700">
+<img src="photos/4.gif" width="700" height="700">
 
 
 
