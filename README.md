@@ -27,5 +27,12 @@
 * Yukarıda belirtmiş olduğum yanlış cevap verilmesi anındaki bildiriyi düzenleyip verilen kullanıcının daha rahat anlayabilmesi için cevap eğer ki yanlış ise harf bloklarının altında kırmızı yanacak şekilde ayarladım.
 <img src="photos/3.png" width="625" height="134">
  
+* Data.js içerisinde belirlemiş olduğumuz soruların hepsine doğru cevap verildiğinde ekranımıza “sorular bitti!!” yazısı ekledim.
+* Son olarak gerekli css ve yazı stili ayarlamalarını yaptıktan sonra oyunumuzu hazır hale getirdim.
+
+## Oynanış Videosu
+<img src="photos/4.gif" width="1000" height="700">
+
+
 
 
