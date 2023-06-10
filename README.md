@@ -19,6 +19,7 @@
 * Sorulacak soru kalmadığında hata vermemesi için gerekli ayarlamaları yaptım.
 * Tıklanılır harflerin görünümünü ayarlamak için oluşturmuş olduğumuz **button** bloğuna classname atayıp App.css üzerinde gerekli ayarlamaları yapıp tuşlara basıldığında üste aktarılacak harflerin düzenlemesini yaptım.
 * Ardından soru başlığındaki yazı boyutunu ve kalınlık ayarlarını yaptım.
+<img src="photos/1.png" width="250" height="250">
 
  
 
