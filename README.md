@@ -23,6 +23,9 @@
 
 * Tıkladığımız harflerin soru altındaki görünümlerini üzerine gelip silmek istediğimizde kırmızıya dönecek şekilde ayarladım.
 <img src="photos/2.png" width="595" height="121">
+
+* Yukarıda belirtmiş olduğum yanlış cevap verilmesi anındaki bildiriyi düzenleyip verilen kullanıcının daha rahat anlayabilmesi için cevap eğer ki yanlış ise harf bloklarının altında kırmızı yanacak şekilde ayarladım.
+<img src="photos/3.png" width="625" height="134">
  
 
 
