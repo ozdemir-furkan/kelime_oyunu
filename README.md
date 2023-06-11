@@ -32,7 +32,7 @@
 * Son olarak gerekli **css** ve yazı stili ayarlamalarını yaptıktan sonra oyunumuzu hazır hale getirdim.
 
 ## Oynanış Videosu
-<img src="photos/yeni.gif">
+<img src="photos/kelime.gif">
 
 
 
