@@ -1,12 +1,12 @@
-.App{
+.App {
   text-align: center;
   margin-top: 20px;
   justify-content: center;
   align-items: center;
+  flex-flow: column;
   display: flex;
   height: 100vh;
-  font-family: 'Josefin Sans', sans-serif;
-
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .question-area{
@@ -52,4 +52,38 @@
 
 .empty-message{
   font-size: 25px;
+}
+
+.imgBox {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.imgBox .img1 {
+  width: 250px;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}
+
+.imgBox .img2 {
+  width: 250px;
+  position: absolute;
+  top: 100px;
+  right: 20px;
+}
+
+.imgBox .img3 {
+  width: 250px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.imgBox .img4 {
+  width: 250px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
 }
