@@ -10,6 +10,7 @@ function App() {
   const [keywords,setKeywords]=useState([]);
   const [resultQuestion,setResultQuestion]=useState(false);
   const [wrong,setWrong]=useState(false);
+  const resim = document.createElement("img");
 
 
   const shuffle=(array)=>{
@@ -67,6 +68,24 @@ function App() {
   };
   return (
     <div className="App">
+      <div className="imgBox">
+        <img
+          className="img1"
+          src="https://cdn-icons-png.flaticon.com/512/5726/5726532.png"
+        />
+        <img
+          className="img2"
+          src="https://t3.ftcdn.net/jpg/00/53/73/42/360_F_53734293_rs3bkrl9n1EJZBj2CdogkmeF6W5aOhy5.jpg"
+        />
+        <img
+          className="img3"
+          src="https://media.istockphoto.com/id/508545844/photo/question-mark-from-books-searching-information-or-faq-edication.jpg?s=612x612&w=0&k=20&c=-RTL7PuuaYZWifHcE4lvNFjqPY_J9VpqMNegcc3sdgA="
+        />
+        <img
+          className="img4"
+          src="https://www.balatoyz.com/img/products/2_22.03.2023_ee7d1e8.jpg"
+        />
+      </div>
       {answer!=""&&
       <div>
       <div>
