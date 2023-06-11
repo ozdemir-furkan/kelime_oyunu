@@ -28,7 +28,8 @@
 <img src="photos/3.png" width="625" height="134">
  
 * Data.js içerisinde belirlemiş olduğumuz soruların hepsine doğru cevap verildiğinde ekranımıza “sorular bitti!!” yazısı ekledim.
-* Son olarak gerekli css ve yazı stili ayarlamalarını yaptıktan sonra oyunumuzu hazır hale getirdim.
+* Oyun görünüşümüzün daha ilgi çekici olması için köşelere oyunumuzla ilgili görseller ekledim
+* Son olarak gerekli **css** ve yazı stili ayarlamalarını yaptıktan sonra oyunumuzu hazır hale getirdim.
 
 ## Oynanış Videosu
 <img src="photos/yeni.gif">
